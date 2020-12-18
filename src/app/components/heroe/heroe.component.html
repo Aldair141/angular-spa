@@ -1,0 +1,15 @@
+<h1>{{ objHeroe.nombre | uppercase }} <small>{{ objHeroe.aparicion | date: 'y' }}</small></h1>
+<hr>
+<div class="row">
+    <div class="col-sm-4">
+        <img [src]="objHeroe.img" class="img-fluid" alt="">
+        <br>
+        <br>
+        <button class="btn btn-outline-danger btn-block" (click)="retornar()">Retornar</button>
+    </div>
+    <div class="col-sm-8">
+        <h3>{{ objHeroe.nombre }}</h3>
+        <p>{{ objHeroe.bio }}</p>
+        <img src="assets/img/{{ objHeroe.casa }}.png" width="200" height="180" alt="">
+    </div>
+</div>

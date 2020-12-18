@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "app-spa"
+    }
+  },
+  "defaultProject": "app-spa",
+  "cli": {
+    "analytics": false
+  }
 }

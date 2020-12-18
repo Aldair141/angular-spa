@@ -1,0 +1,9 @@
+<div class="card">
+    <img [src]="objHeroe.img" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{ objHeroe.nombre }}</h5>
+      <p class="card-text">{{ objHeroe.bio }}</p>
+      <p class="card-text"><small class="text-muted">{{ objHeroe.aparicion }}</small></p>
+      <button class="btn btn-outline-success btn-block" (click)="verDetalle()">Ver detalle</button>
+    </div>
+  </div>

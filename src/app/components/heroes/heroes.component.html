@@ -1,0 +1,3 @@
+<div class="card-columns">
+    <app-heroe-tarjeta *ngFor="let heroe of lstHeroes" [objHeroe]="heroe" (heroeSeleccionado)="verDetalle($event)"></app-heroe-tarjeta>
+</div>
